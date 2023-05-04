@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='40' height='69.282' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M13.333-3.849v23.094M6.667-15.396l20 11.547M13.333-19.245l20 11.547M20 0v23.094m20-34.641l-6.667 3.849-6.666 3.849L20 0M0-11.547l6.667 3.849 6.666 3.849L20 0m0-23.094l20 11.547v23.094L20 23.094l-6.667-3.849-6.666-3.849L0 11.547v-23.094l6.667-3.849 6.666-3.849zM40-3.769L20 7.698m20-3.849l-16.253 9.384L20 15.396M6.667-7.698v23.094m6.666 50.037v23.094M6.667 53.886l20 11.547M13.333 50.037l20 11.547M20 69.282v23.094m20-34.641l-6.667 3.849-6.666 3.849L20 69.282M0 57.735l6.667 3.849 6.666 3.849L20 69.282m0-23.094l20 11.547v23.094L20 92.376l-6.667-3.849-6.666-3.849L0 80.829V57.735l6.667-3.849 6.666-3.849zm20 19.325L20 76.98m20-3.849L20 84.678M6.667 61.584v23.094m26.666-53.886v23.094m-6.666-34.641l20 11.547M33.333 15.396l20 11.547M40 34.641v23.094m20-34.641l-6.667 3.849-6.666 3.849L40 34.641M20 23.094l6.667 3.849 6.666 3.849L40 34.641m0-23.094l20 11.547v23.094L40 57.735l-6.667-3.849-6.666-3.849L20 46.188V23.094l6.667-3.849 6.666-3.849zm20 19.325L40 42.339m20-3.849L40 50.037M26.667 26.943v23.094M-6.667 30.792v23.094m-6.666-34.641l20 11.547M-6.667 15.396l20 11.547M0 34.641v23.094m20-34.641l-6.667 3.849-6.666 3.849L0 34.641m-20-11.547l6.667 3.849 6.666 3.849L0 34.641m0-23.094l20 11.547v23.094L0 57.735l-6.667-3.849-6.666-3.849L-20 46.188V23.094l6.667-3.849 6.666-3.849zm20 19.325L0 42.339m20-3.849L0 50.037m-13.333-23.094v23.094'  stroke-width='1' stroke='hsla(122, 39%, 49%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+}
+
+.container {
+  max-width: 650px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+select {
+  border: none;
+  outline: none;
+  padding: 0.4rem;
+  margin: 3px;
+  border: 2px solid;
+  border-color: #f7761d;
+  caret-color: #f7761d;
+  font-family: concert One;
+}
+
+h1 {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 70px;
+  font-family: concert One;
+  color: #f7761d;
+}
+
+.top {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+input {
+  border: none;
+  outline: none;
+  width: 400px;
+  padding: 0.5rem;
+  border: 2px solid;
+  border-color: #f7761d;
+  caret-color: #f7761d;
+  font-family: concert One;
+}
+
+.add {
+  background-color: #f7761d;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  font-family: concert One;
+  border-radius: 20%;
+}
+
+.todo {
+  position: relative;
+  margin-top: 1rem;
+  background-color: #003400;
+  color: #fff;
+  padding: 1.5rem 3rem;
+  border-radius: 5px;
+  font-family: concert One;
+}
+.icons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  display: flex;
+  gap: 0.5rem;
+}
+.icon {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.navbut {
+  background-color: #f7761d;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  font-family: concert One;
+  border-radius: 20%;
+  width: 100px;
+}
+
+.nav {
+  margin: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.list {
+  padding-block: 2rem;
+}
+
+.loading {
+  padding-top: 300px;
+}
